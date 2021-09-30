@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Sep 30 11:58:24 2021
+# Process ID: 34976
+# Current directory: C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.runs/impl_1
+# Command line: vivado.exe -log gcd_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source gcd_top.tcl -notrace
+# Log file: C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.runs/impl_1/gcd_top.vdi
+# Journal file: C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source gcd_top.tcl -notrace
+Command: link_design -top gcd_top -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1015.672 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.srcs/constrs_1/imports/task2/Nexys4DDR_gcd.xdc]
+Finished Parsing XDC File [C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.srcs/constrs_1/imports/task2/Nexys4DDR_gcd.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1015.672 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1015.672 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
