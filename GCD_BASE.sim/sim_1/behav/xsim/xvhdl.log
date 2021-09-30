@@ -1,2 +1,4 @@
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.srcs/sources_1/imports/task2/gcd.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'gcd'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.srcs/sources_1/imports/task2/gcd_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd_tb'

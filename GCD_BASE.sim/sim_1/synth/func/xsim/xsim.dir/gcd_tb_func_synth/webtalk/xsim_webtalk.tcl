@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.sim/sim_1/synth/func/xsim/xsim.dir/gcd_tb_func_synth/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Thu Sep 30 11:14:31 2021" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Thu Sep 30 11:44:56 2021" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2020.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "3064766" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "9202c9ab-be08-4b75-b953-9e78b4ef1daf" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "3e570bfd035843bda2e93895b5e632ed" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "3" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "5" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "AMD Ryzen 5 PRO 4650U with Radeon Graphics" -context "user_environment"
@@ -36,7 +36,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "4" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "7" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.88_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "61628_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 3473729001 -regid "" -xml C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.sim/sim_1/synth/func/xsim/xsim.dir/gcd_tb_func_synth/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.sim/sim_1/synth/func/xsim/xsim.dir/gcd_tb_func_synth/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.sim/sim_1/synth/func/xsim/xsim.dir/gcd_tb_func_synth/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "0.84_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "61652_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 4155808112 -regid "" -xml C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.sim/sim_1/synth/func/xsim/xsim.dir/gcd_tb_func_synth/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.sim/sim_1/synth/func/xsim/xsim.dir/gcd_tb_func_synth/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/ruft/SCHOOL/GCD_BASE/GCD_BASE.sim/sim_1/synth/func/xsim/xsim.dir/gcd_tb_func_synth/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

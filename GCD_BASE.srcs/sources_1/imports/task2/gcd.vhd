@@ -27,11 +27,11 @@ end gcd;
 architecture fsmd of gcd is
 
 --  type state_type is ( ... ); -- Input your own state names
-  type state_type is (s0, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10); -- Input your own state names
+  type state_type is (s_init, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11); -- Input your own state names
 
   signal reg_a, next_reg_a, next_reg_b, reg_b : unsigned(15 downto 0);
 
-  signal state, next_state : state_type := S0;
+  signal state, next_state : state_type := S_init;
 
 
 begin
@@ -44,7 +44,7 @@ begin
 
     case (state) is
 
-        when s0 =>
+        when s_init =>
             if req = '1' then
                 next_state <= s1;
             end if;
@@ -83,12 +83,14 @@ begin
             --C <= reg_a;
             next_state <= s9;
         when s9 => 
-            ack <= '0';
             next_state <= s10;
         when s10 => 
-            next_state <= s0;
+            next_state <= s11;
+            ack <= '0';
+        when s11 => 
+            next_state <= s_init;
         when others =>
-            next_state <= s0;
+            next_state <= s_init;
             
     end case;
   end process cl;
@@ -101,11 +103,11 @@ begin
     if rising_edge(clk) then
     
         if reset = '1' then
-            state <= s0;
+            state <= s_init;
             reg_a <= (others => '0');
             reg_b <= (others => '0');
         else
-            if state = s9 then
+            if state = s11 then
                 C <= reg_a;
             else
                 reg_a <= next_reg_a;

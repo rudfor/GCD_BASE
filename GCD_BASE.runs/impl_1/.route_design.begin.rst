@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command=".planAhead." Owner="ruft" Host="DK-C-KBN-RUFT-1" Pid="43604">
-    </Process>
-</ProcessHandle>
