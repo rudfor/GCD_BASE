@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"gcd_tb_func_synth.vhd" \
+"../../../../../GCD_BASE.srcs/sources_1/imports/task2/gcd.vhd" \
+"../../../../../GCD_BASE.srcs/sources_1/imports/task2/gcd_tb.vhd" \
+
+# Do not sort compile order
+nosort
